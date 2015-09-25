@@ -1,0 +1,156 @@
+/*Начало блока content*/
+.entry{
+	line-height: 20px;
+	padding: 13px 0 0;
+	margin: 0 0 36px;
+}
+#inner-border h2{
+	color: #656565;
+	font: bold 36px Arial, sans-serif;
+	margin: 0 0 20px;
+}
+.entry h4{
+	color: #656565;
+	font: bold 11px Arial, sans-serif;
+	text-transform: uppercase;
+	line-height: 13px;
+	margin: 0 0 3px;
+}
+.entry p{
+	color: #8d8d8d;
+	font: 11px Arial, sans-serif;
+	line-height: 20px;
+}
+#contact-form{
+	width: 571px;
+	margin: 0 0 7px -6px;
+	border: 1px solid #eeeadc;
+	background: #fdfbf1;
+	padding: 7px;
+}
+#contact-form .holder{
+	padding: 19px 29px 12px 17px;
+	background: #fff;
+	border: 1px solid #eeeadc;
+}
+#contact-form .entry{
+	margin: 0 0 32px;
+	padding: 0;
+}
+#contact-form .row{
+	margin: 0 0 27px;
+}
+#contact-form label{
+	width: 124px;
+	float: left;
+	color: #656565;
+	font:  bold 11px Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	padding: 0 4px;
+}
+#contact-form label span{
+	font: 11px Arial, Helvetica, sans-serif;
+	display: block;
+	font-weight: normal;
+	text-transform: capitalize;
+	padding: 7px 0 0;
+}
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form textarea{
+	width: 379px;
+	float: left;
+	padding: 8px 5px;
+	border: 1px solid #dedede;
+	color:  #656565;
+	height: 12px;
+}
+#contact-form .row:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+#contact-form textarea{
+	width: 379px;
+	min-height: 267px;
+}
+#contact-form input[type='submit']{
+	color: #656565;
+	font-size: 14px;
+	font-weight: bold;
+	border: 1px solid #dedede;
+	background: #fdfbf1;
+	margin: -14px 0 0 132px;
+	padding: 0 19px;
+	height: 33px;
+	line-height: 32px;
+	cursor: pointer;
+}
+#contact-form input[type='submit']:hover{
+	background: #FDFBD7;
+}
+/*Конец блока content*/
+/*Начало блока sidebar*/
+#sidebar-block .info{
+	border-bottom: 1px solid #eaeaea;
+	line-height: 20px;
+	padding: 0 0 11px;
+	margin: 0 0 13px;
+	font: 11px Arial, Helvetica, sans-serif;
+	color: #656565;
+	line-height: 20px;
+}
+#sidebar-block .contact-info{
+	font-weight: bold;
+	color: #656565;
+	border-bottom: 1px solid #eaeaea;
+	margin: 0 0 21px;
+	overflow: hidden;
+	padding: 0 0 7px;
+}
+#sidebar-block .contact-info dt{
+	float: left;
+	text-transform: uppercase;
+	padding: 0 5px 0 0;
+}
+#sidebar-block .contact-info dt,
+#sidebar-block .contact-info dd{
+	margin: 0 0 7px;
+	font:  bold 11px Arial, Helvetica, sans-serif;
+}
+ #sidebar-block .contact-info dd a{
+	text-decoration: none;
+	color: #656565;
+}
+#sidebar-block .contact-info address{
+	padding: 0;
+	font-style: normal;
+}
+#sidebar-block .follow{
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 0 0 0 10px;
+	letter-spacing: -0.5px;
+}
+#sidebar-block .follow .twitter{
+	display: inline-block;
+	vertical-align: top;
+	padding: 0 0 0 60px;
+	color: #40969f;
+	text-decoration: none;
+	position: relative;
+}
+#sidebar-block .follow .twitter:before{
+	content: '';
+	position: absolute;
+	top: -9px;
+	left: 0;
+	background: url(../images/twitter.png) no-repeat;
+	width: 48px;
+	height: 28px;
+}
+#sidebar-block .follow .twitter:hover{
+	opacity: 0.7;
+}
+/*Конец блока sidebar*/

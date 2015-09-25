@@ -1,0 +1,267 @@
+@import url(reset.css);
+body{
+	width: 100%;
+	background: #f9f6ea;
+	outline: 1px solid #cc0000;
+}
+/*Начало блока header*/
+#header{
+	height: 132px;
+	background: url('../images/header.jpg') repeat-x;
+}
+#header-content{
+	width: 980px;	/*1300px*/
+	margin: 0 auto;
+}
+#logo a{
+	color: #ffc600;
+	font: bold 30px "Myriad Pro", Helvetica, Arial, sans-serif;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin: 57px 0 0 0;
+	float: left;
+}
+#logo a:before,#logo a:after{
+	color: #fffafa;
+	font-weight: normal;
+}
+#logo a:before{
+	content: 'my';
+}
+#logo a:after{
+	content: 'design';
+}
+#nav{
+	float: right;
+	margin: 60px 0 0 0;
+}
+#nav li{
+	float: left;
+	margin-left: 26px;
+}
+#nav li a{
+	color: #ffffff;
+	font: bold 11px Arial, sans-serif;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+#nav-right{
+	margin-right: 4px;
+}
+
+#nav a:hover, #nav a:active, #nav ul li.active a{
+	color: #ffc600;
+	text-decoration: underline;
+}
+/*Конец блока header*/
+/*Начало блока main*/
+#main{
+	width: 948px;
+	background: #fff;
+	margin: -17px auto 0;
+	border: 1px solid #eeeadc;
+	padding: 22px 15px 16px;
+}
+/*Начало блока content*/
+#content{
+	width: 636px;
+	float: left;
+}
+#content h3{
+	font: bold 20px Arial, sans-serif;
+	margin: 0 0 23px 16px;
+}
+#portfolio{
+	border: 1px solid #eeeadc;
+	background: #fdfbf1;
+	padding: 7px;
+}
+#inner-border{
+	background: #fff;
+	border: 1px solid #eeeadc;
+	padding: 8px 9px 11px 21px;
+}
+.portfolio-content{
+	padding: 0 0 7px;
+	margin: 0 0 31px;
+	border-bottom: 1px solid #eaeaea;
+	overflow: hidden;
+}
+.portfolio-content .text{
+	width: 285px;
+	float: left;
+	font-size: 11px;
+	padding: 11px 0 0;
+}
+.text h2{
+	color: #656565;
+	font: bold 36px Arial, sans-serif;
+	margin: 0 0 17px;
+	padding: 0 0 20px;
+	border-bottom: 1px solid #eaeaea;
+}
+.text h5, .text p{
+	color: #8d8d8d;
+	font: 11px Arial, sans-serif;
+	line-height: 18px;
+}
+.text h5{
+	font-weight: bold;
+}
+.image{
+	width: 279px;
+	float: right;
+}
+.image img{
+	padding: 6px;
+	border: 1px solid #eeeadc;
+	margin: 0 0 5px;
+}
+.button{
+	color: #656565;
+	font: bold 14px Arial, sans-serif;
+	display: inline-block;
+	vertical-align: top;
+	background: #fdfbf1;
+	border: 1px solid #dbd6c6;
+	text-decoration: none;
+	padding: 6px 18px 9px;
+}
+.button:hover{
+	background: #f0ede0;
+}
+.page-number{
+	margin: -20px 0 0;
+}
+.page-number ul{
+	list-style: none;
+	letter-spacing: -4px;
+	color: #656565;
+}
+.page-number ul li{
+	font: bold 14px Arial, sans-serif;
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 9px 0 0;
+	letter-spacing: normal;
+}
+.page-number ul a, .page-number ul li span{
+	line-height: 31px;
+	color: #656565;
+	background: #fdfbf1;
+	display: block;
+	border: 1px solid #dbd6c6;
+	text-decoration: none;
+	padding: 0 11px;
+}
+.page-number ul li span, .page-number ul a:hover {
+	background: #f0ede0;
+}
+/*Конец блока content*/
+/*Начало блока sidebar*/
+#sidebar{
+	float: right;
+	width: 303px;
+}
+#sidebar h3{
+	font: bold 20px Arial, sans-serif;
+	margin: 0 0 23px;
+}
+#sidebar-block{
+	border: 1px solid #eeeadc;
+	background: #fdfbf1;
+	padding: 7px;
+	margin: 0 0 10px;
+}
+#holder{
+	padding: 16px 12px 25px;
+	background: #fff;
+	border: 1px solid #eeeadc;
+}
+.quote{
+	border-top: 1px solid #eaeaea;
+	background: url(../images/quotes.png) no-repeat 0 17px;
+	padding: 18px 0 38px;
+	display: block;
+}
+.quote:first-child{
+	border: none;
+	padding: 0 0 15px;
+	background-position: 0 0;
+}
+.quote q{
+	color: #8d8d8d;
+	font: 11px Arial, sans-serif;
+	margin: 0 0 14px;
+	display: block;
+	line-height: 20px;
+}
+.quote cite{
+	display: block;
+	text-align: right;
+	text-transform: uppercase;
+	color: #656565;
+	line-height: 13px;
+	font: bold 11px Arial, sans-serif;
+}
+#box .advertise{
+	background: #f0ede0;
+	display: block;
+}
+.box-block{
+	border: 1px solid #eeeadc;
+	background: #fdfbf1;
+	padding: 7px;
+	margin: 0 0 10px;
+}
+#box a{
+	border: 1px solid #dfdcd0;
+	height: 35px;
+	font: bold 14px Arial, sans-serif;
+	color: #656565;
+	padding: 26px 0 0 0;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+#box a:hover{
+	background: #DFDCCF;
+}
+/*Конец блока sidebar*/
+#main:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+/*Конец блока main*/
+/*Начало блока footer*/
+#footer{
+	width: 940px;
+	margin: 0 auto;
+	padding: 13px 20px 119px;
+}
+#footer-logo{
+	text-transform: uppercase;
+	color: #656565;
+	font: bold 14px Arial, sans-serif;
+	float: left;
+	letter-spacing: -1px;
+}
+#footer-logo:before,#footer-logo:after{
+	color: #656565;
+	font-weight: normal;
+}
+#footer-logo:before{
+	content: 'my';
+}
+#footer-logo:after{
+	content: 'design';
+}
+#copyright{
+	float: right;
+	text-align: right;
+	line-height: 18px;
+	font: 11px Arial, sans-serif;
+	color: #656565;
+}
+/*Конец блока footer*/
